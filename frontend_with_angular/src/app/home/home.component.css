@@ -1,0 +1,13 @@
+.background {
+    position: fixed;
+    height: 95vh !important;
+    width: 100%;
+    background-image: url('https://pcacme.com/wp-content/uploads/2019/05/deals-coupons-discounts.jpg');
+    background-size: cover;
+}
+h1 {
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 10px auto; /* keep the table centered */
+  padding:10px;font-size:40px;background-color:burlywood;
+  color: #000;
+}
