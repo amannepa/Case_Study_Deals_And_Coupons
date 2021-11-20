@@ -1,0 +1,71 @@
+<p>Admin!</p>
+<div class="row m-0 ">
+    <div class="col-2 px-1 bg-white position-fixed">
+        <div class="nav flex-column flex-nowrap vh-100 overflow-auto text-white p-1" style="height: 94vh !important;">
+            <nav>
+                <br>
+
+                <a [routerLink]="['/admin/createCustomer']" class="nav-link" style="color: black;">Create Customer</a>
+               
+
+                <br>
+
+
+                <a [routerLink]="['/admin/deleteCustomer']" class="nav-link" style="color: black;">Delete Customer</a>
+
+                <br>
+
+            
+
+                <a [routerLink]="['/admin/viewAllCustomers']" class="nav-link" style="color: black;">View All Customers</a>
+
+                <br>
+
+                
+
+                <a [routerLink]="['/admin/viewCustomer']" class="nav-link" style="color: black;">View Customer Details</a>
+
+                <br>
+
+              
+
+                <a [routerLink]="['/admin/updateCustomer']" class="nav-link" style="color: black;">Update Customer</a>
+                <br>
+
+              
+
+                <a [routerLink]="['/admin/addCompany']" class="nav-link" style="color: black;">Add Company</a>
+                <br>
+
+              
+
+                <a [routerLink]="['/admin/deleteCompany']" class="nav-link" style="color: black;">Delete Company</a>
+                <br>
+
+              
+
+                <a [routerLink]="['/admin/updateCompany']" class="nav-link" style="color: black;">Update Company</a>
+                <br>
+
+              
+
+                <a [routerLink]="['/admin/getAllCompanies']" class="nav-link" style="color: black;">Get All Companies</a>
+                <br>
+
+              
+
+                <a [routerLink]="['/admin/getOneCompany']" class="nav-link" style="color: black;">Get One Company</a>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="col-10 offset-2 position-fixed">
+        <div class="nav flex-column flex-nowrap overflow-auto p-1" style="height: 94vh !important">
+            <router-outlet></router-outlet>
+            <br>
+            <br>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</div>

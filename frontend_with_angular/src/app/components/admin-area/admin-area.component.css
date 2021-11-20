@@ -1,0 +1,19 @@
+a{
+    font-size: 20px;
+    display: block;
+    color: aliceblue;
+    background-color: rgb(209, 198, 41);
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+a:hover{
+    color: rgb(184, 93, 196);
+    background-color: rgb(94, 189, 206);
+    transform: scale(105%);
+}
+p{
+    text-align: center;
+    position:relative;
+}
